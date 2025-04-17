@@ -6,11 +6,11 @@ from time import sleep
 
 # Connect to the database
 conn = psycopg2.connect(
-    dbname="project",
-    user="postgres",
+    dbname="YOUR_PROJECT_NAME",
+    user="YOUR_USER_NAME",
     password="YOUR_PASSWORD",
-    host="localhost",
-    port="5432"
+    host="localhost", # standart
+    port="5432" # standart
 )
 
 # Create a cursor
