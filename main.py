@@ -8,7 +8,7 @@ from time import sleep
 conn = psycopg2.connect(
     dbname="project",
     user="postgres",
-    password="25102006",
+    password="####",
     host="localhost",
     port="5432"
 )
