@@ -12,21 +12,12 @@ env/
 .venv/
 ENV/
 
-# Database (caso use SQLite, se não usa, pode ignorar essa linha)
-*.sqlite3
-
 # Logs
 *.log
 
 # Secrets (coloque aqui arquivos com senhas caso crie algum)
 secrets.txt
 .env
-
-# macOS
-.DS_Store
-
-# PyCharm
-.idea/
 
 # Cache
 *.egg-info/
